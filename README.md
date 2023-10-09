@@ -7,6 +7,9 @@
 
 Te cuento los requisitos y los trozos de código y plantilla que ya tienes disponibles para que sea aún más fácil.
 
+‎
+‎
+
 ## ⏳ Te contaré una historia
 
 > “Espero que esté todo bien, te estaré vigilando”
@@ -40,8 +43,8 @@ Así que solo te queda tu código.
 
 **⚡️ Tu misión es crear cualquier tipo de test que evite que Terrible reciba un error.**
 
-
-
+‎
+‎
 
 ## 📋 Requisitos del reto
 
@@ -60,7 +63,8 @@ No voy a contarte qué cambios son, tendrás que descubrirlo poco a poco.
 
 👉 Si te puedo decir que existe la posibilidad de que 1 de cada 4 veces los datos de origen no estén alterados.
 
-
+‎
+‎
 
 ## 🎲 Requisitos funcionales
 
@@ -80,6 +84,7 @@ No voy a contarte qué cambios son, tendrás que descubrirlo poco a poco.
 1. Primera opción: No tengas en cuenta ese episodio
 2. Segunda opción: Muestra un error que le haga saber a Terrible que le has pillado
 
+‎
 
 ### Para entregar
 
@@ -87,10 +92,14 @@ No voy a contarte qué cambios son, tendrás que descubrirlo poco a poco.
 - El código funcional que hace la tarea de los cuatro datos fundamentales 
 - Las dependencias que necesitamos instalar para ejecutar los tests
 
+‎
 
 ### 🌟 Requisitos extra (no obligatorios, pero hay gente muy “viciosa”)  
 
 - Atreverse es de valientes: Un sistema de caché para que la última solución correcta sea la salida del sistema aunque haya datos alterados
+
+‎
+‎
 
 ## 👩‍💻 ¿Cómo participas en el reto?
 
@@ -101,9 +110,16 @@ No voy a contarte qué cambios son, tendrás que descubrirlo poco a poco.
 
 🎁 Sortearemos regalos entre los participantes ;)  
 
+‎
+‎
+
+
 ## 🗓️ Fecha límite
 
 2 de Noviembre de 2023
+
+‎
+‎
 
 ## 🛠️ ¿Qué vas a aprender en este reto?
 
@@ -112,6 +128,8 @@ No voy a contarte qué cambios son, tendrás que descubrirlo poco a poco.
 2. Enfrentarte a cambios en APIs que no controlas
 3. Ser más responsable con tu código
 
+‎
+‎
 
 ## 🤗 Mecenazgo
 Este reto se realiza por y para la [Comunidad Malandriner](https://webreactiva.com/comunidad)
