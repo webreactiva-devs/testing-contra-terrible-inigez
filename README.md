@@ -11,7 +11,7 @@ Te cuento los requisitos y los trozos de código y plantilla que ya tienes dispo
 
 > “Espero que esté todo bien, te estaré vigilando”
 
-Esto es lo último que dijo Terrible Íñigez cuando entró en el despacho. Después de eso todos sabíamos que estaría buscando cualquier forma de que aquella pantalla de aplicación diera un ERROS y salir a buscar al CULPABLE.
+Esto es lo último que dijo Terrible Íñigez cuando entró en el despacho. Después de eso todos sabíamos que estaría buscando cualquier forma de que aquella pantalla de aplicación diera un ERROR y salir a buscar al CULPABLE para atizarle un CALAMBRAZO con su Taser de 100 mil voltios. 
 
 Su nombre era Terrible, no era un mote.
 
@@ -36,10 +36,10 @@ Tu no puedes controlar ese proceso, no tienes acceso.
 
 Tampoco puedes controlar la fuente.
 
-Así que solo te queda tu código.
+💪🏼 Así que solo te puede salvar tu código.
 
-**⚡️ Tu misión es crear cualquier tipo de test que evite que Terrible reciba un error.**
+**⚡️ Tu misión es crear un sistema de defensa basado en tests INDESTRUCTUBLES que evite que Terrible reciba un error.**
 
 ## 📋 Requisitos del reto
 
-{YA CASI ESTA!}
+{ESTAN EN LA FASE DE REDACCION, AVISARÉ EN EL GRUPO}
