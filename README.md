@@ -40,6 +40,8 @@ Así que solo te queda tu código.
 
 **⚡️ Tu misión es crear cualquier tipo de test que evite que Terrible reciba un error.**
 
+
+
 ## 📋 Requisitos del reto
 
 
