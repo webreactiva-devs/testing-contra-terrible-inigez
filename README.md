@@ -1,6 +1,6 @@
 # Testing contra el Terrible Íñigez
 
-![fe9bb175-4476-495f-a0ed-08b8363ea738](https://github.com/webreactiva-devs/testing-contra-terrible-inigez/assets/1122071/6c752f14-ed5c-4d2d-abc4-279187976dcf)
+
 
 > 🎯 Propósito: Aprender a atrapar errores antes de pasarlos a producción 🆕
 
