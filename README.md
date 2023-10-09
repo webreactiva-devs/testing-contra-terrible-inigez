@@ -1,5 +1,6 @@
 # Testing contra el Terrible Íñigez
 
+![DALL·E 2023-10-09 18 21 05 - Pixel art of a bustling office landscape  Workers are busy at their desks, but in the middle of it all, a boss with a striking mustache and foreboding](https://github.com/webreactiva-devs/testing-contra-terrible-inigez/assets/1122071/6b4291d5-b64c-4bb2-b9ba-2b306c09ee96)
 
 
 > 🎯 Propósito: Aprender a atrapar errores antes de pasarlos a producción 🆕
