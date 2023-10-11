@@ -29,7 +29,16 @@ Terrible es tu jefe y tú te encargas de mantener con vida un sistema que captur
 
 👉 El origen de los datos es este:  `https://tormenta-codigo-app-terrible.vercel.app/api/podcast`
 
-👉 En la carpeta `/plantillas` tienes el código resuelto en varios lenguajes de programación. Funcionan todos con salida en consola.
+👉 En la carpeta `/plantillas` tienes el código resuelto en varios lenguajes de programación como JavaScript, Python, PHP o Kotlin. Funcionan todos con salida en consola.
+
+👉 En la carpeta `/guia-test` tienes un "how-to" para dar tus primeros pasos en testing
+
+
+
+‎
+‎
+
+
 
 Es sabido que Terrible se pasa el día buscando como hacer que otros fallen y cambia a propósito los datos de origen.
 
@@ -92,7 +101,11 @@ No voy a contarte qué cambios son, tendrás que descubrirlo poco a poco.
 - El código funcional que hace la tarea de los cuatro datos fundamentales 
 - Las dependencias que necesitamos instalar para ejecutar los tests
 
+📝 ‎¿Cómo se hacen tests? Consulta la carpeta `/guia-test` de este mismo repo.
+
 ‎
+
+
 
 ### 🌟 Requisitos extra (no obligatorios, pero hay gente muy “viciosa”)  
 
