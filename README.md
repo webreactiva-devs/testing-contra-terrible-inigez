@@ -1,4 +1,4 @@
-# Tormenta de código: Testing contra el Terrible Íñigez
+# Tormenta de código: Testing contra el Terrible Íñiguez
 
 ![DALL·E 2023-10-09 18 21 05 - Pixel art of a bustling office landscape  Workers are busy at their desks, but in the middle of it all, a boss with a striking mustache and foreboding](https://github.com/webreactiva-devs/testing-contra-terrible-inigez/assets/1122071/6b4291d5-b64c-4bb2-b9ba-2b306c09ee96)
 
@@ -14,7 +14,7 @@ Te cuento los requisitos y los trozos de código y plantilla que ya tienes dispo
 
 > “Espero que esté todo bien, te estaré vigilando”
 
-Esto es lo último que dijo Terrible Íñigez cuando entró en el despacho. Después de eso todos sabíamos que estaría buscando cualquier forma de que aquella pantalla de aplicación diera un ERROS y salir a buscar al CULPABLE.
+Esto es lo último que dijo Terrible Íñiguez cuando entró en el despacho. Después de eso todos sabíamos que estaría buscando cualquier forma de que aquella pantalla de aplicación diera un ERROS y salir a buscar al CULPABLE.
 
 Su nombre era Terrible, no era un mote.
 
