@@ -203,6 +203,9 @@ Si te das cuenta es casi perfectamente legible a poco que sepas un poco de ingl�
 
 Tendría que salirte algo así:
 
+<img width="894" alt="Captura de pantalla 2023-10-24 a las 10 47 37" src="https://github.com/webreactiva-devs/testing-contra-terrible-inigez/assets/1122071/8790e66c-7e64-46d4-a261-ba9b2c7256ee">
+
+
 🥳🥳🥳🥳 ¡Tu primer test en verde! 🟢
 
 ### Completando el ciclo de TDD con Vitest
@@ -225,6 +228,8 @@ test("subtract 1 - 2 to equal -1", () => {
 ```
 
 Parece una tontería, si ejecutas o ves en la terminal el resultado de `npm run test` tendrás que ver algo así:
+
+<img width="566" alt="Captura de pantalla 2023-10-24 a las 11 01 51" src="https://github.com/webreactiva-devs/testing-contra-terrible-inigez/assets/1122071/1c253d74-fcd2-4561-848e-eae04228fad2">
 
 `ReferenceError: substract is not defined`
 
