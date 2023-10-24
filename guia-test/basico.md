@@ -134,12 +134,130 @@ function resta(a, b) {
 📝 Añade más pruebas de resta y de suma o prueba con funciones sencillas.
 
 ‎
+## Usando una librería de tests para ser más "pro"
+
+Esto puede ser un poco rollo si queremos hacer muchos tests y los queremos automatizar.
+
+Así que vamos a usar una librería de tests de verdad. Por ejemplo, [Vitest](https://vitest.dev/).
+
+Sigue estos pasos para empezar:
+
+1. Crea una carpeta para el proyecto, por ejemplo "aprendiendo-testing".
+2. Arranca el proyecto con `npm init -y`. Esto te genera un fichero `package.json` con las dependencias que necesitas (de momento ninguna). Lo puedes modificar más tarde.
+3. Instala Vitest con `npm install -D vitest`.
+
+### Convierte el código en testeable
+
+Las piezas para poder hacer tests deben ser independientes y lo más pequeñas posibles.
+
+Nosotros ahora lo tenemos muy fácil, porque solo tenemos dos funciones.
+
+1. Crea un fichero `operations.js` en la carpeta de trabajo
+2. Pega dentro esto:
+
+```js
+export function add(a, b) {
+  return a + b;
+}
+```
+
+Lo que hemos hecho es exportar la función `add` para que los tests (y otros archivos de nuestro proyecto) puedan utilizarla.
+
+### Crea tus primeros tests automatizados con Vitest
+
+1. Crea un fichero `operations.test.js` en la carpeta de trabajo.
+2. Pega allí esto:
+
+```js
+import { expect, test } from "vitest";
+import { add } from "./operations";
+
+test("add 1 + 2 to equal 3", () => {
+  expect(add(1, 2)).toBe(3);
+});
+```
+
+Varias cosas aquí:
+- `test` es la función que engloba las aserciones que quieres hacer y el nombre de la prueba que estás haciendo.
+- `expect` es la función que comprueba si la condición es verdadera o falsa
+- La condición es que la suma de 1 y 2 sea igual a 3. Para defininir ese "deseo" usamos `toBe`.
+
+Si traducimos el test al español sería algo así:
+
+```
+Quiero que haga una prueba que compruebe que la suma de 1 y 2 sea igual a 3
+Mi expectativa es que suma(1, 2) sea igual a 3
+```
+
+Si te das cuenta es casi perfectamente legible a poco que sepas un poco de inglés.
+
+3. Modifica el fichero `package.json` para añadir el script de test:
+
+```json
+  "scripts": {
+    "test": "vitest"
+  }, 
+```
+
+4. Lanza los test con `npm run test`.
+
+Tendría que salirte algo así:
+
+🥳🥳🥳🥳 ¡Tu primer test en verde! 🟢
+
+### Completando el ciclo de TDD con Vitest
+
+Vamos a intentar completar nuestro ciclo de TDD, el que vimos antes.
+
+1️⃣ Crear el test, ejecutarlo y que salga en rojo 🛑
+2️⃣ Crear la mínima pieza de código que haga poner el test en verde 🟢
+3️⃣ Refactorizar el código 🔁 
+
+**1️⃣ Crear el test, ejecutarlo y que salga en rojo 🛑**
+
+En `operations.test.js` añade esto:
+
+
+```js
+test("subtract 1 - 2 to equal -1", () => {
+  expect(substract(1, 2)).toBe(-1);
+});
+```
+
+Parece una tontería, si ejecutas o ves en la terminal el resultado de `npm run test` tendrás que ver algo así:
+
+`ReferenceError: substract is not defined`
+
+Estamos en rojo 🛑 porque no tenemos la función `substract` definida.
+
+> La razón de hacer esto así en un proyecto más grande tiene sentido. Imagínate que hubiera salido verde, eso querría decir que ya tenemos ea función definida en algún sitio.
+
+**2️⃣ Crear la mínima pieza de código que haga poner el test en verde 🟢**
+
+En `operations.js` añade esto:
+
+```js
+export function substract(a, b) {
+  return a - b;
+}
+```
+
+Seguirás teniendo el test en rojo. Eso es porque te falta importar esta función en tu test.
+
+En `operations.test.js`:
+
+```js
+import { add, substract } from "./operations";
+```
+
+Lanza los test y ¡verde! 🟢
+
 
 ## Próximos pasos
 
-- Te contaré por aquí en breve como automatizar estos tests y hacerlos más efectivos.
+- ¿Qué más necesitas que te cuente? Cuéntamelo en telegram ;)
 
-¡Íñigez está temblando! 
+¡Íñiguez está temblando! 
 
 
 
